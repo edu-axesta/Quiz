@@ -1,7 +1,6 @@
 print("Vilken huvudstad har Norge?\n1. Oslo\n2. Stockholm\n3. Köpenhamn")
 antal_rätt=0
 stad=int(input(""))
-
 if stad==1 or stad==1:
     print(f"Ditt svar: {stad} \nRätt!")
     antal_rätt+=1
@@ -10,7 +9,6 @@ elif stad==3:
 elif stad ==2:
     print(f"Ditt svar: {stad} \nFel")
 print()
-
 
 print("Vilket år började andra världskriget?\n1. 1914\n2. 1939\n3. 1945")
 år=int(input(""))
@@ -22,4 +20,15 @@ elif år ==2:
 elif år==3:
     print(f"Ditt val {år}\nFel!")
 print()
-print(f"Du fick {antal_rätt} av 2 rätt.")
+
+print("Vad heter världens största hav? \n1. Atlanten\n2. Indiska oceanen\n3. Stilla havet")
+hav=int(input(""))
+if hav ==1:
+    print(f"Ditt val: {hav}\nFel!")
+elif hav ==2:
+    print(f"Diitt val: {hav}\nFel!")
+elif hav==3:
+    print(f"Ditt val: {hav}\nRätt!")
+    antal_rätt+=1
+print()
+print(f"Ditt resultat: {antal_rätt}/3")
